@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+}
+.sidebar{
+    background-color: #1976d2;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: static;
+    width: 300px;
+    transition: all 0.8s;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    padding: 17px 0px 17px 0px;
+    justify-content: space-between;
+    margin-right: 23px;
+}
+.bars{
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+    transition: all .7s;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #3d8ad8;
+    color: #fff;
+    transition: all 0.5s;
+}
+.icon, .link_text{
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.logo{
+   width: 160px;
+   margin-left: 10px;
+}
