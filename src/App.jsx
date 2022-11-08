@@ -22,15 +22,15 @@ function App() {
      dispatch({
        type:"CountryName",
        payload:res.data.countryCode
-     })
+     });
    }).catch((err)=>{
      throw err
-   })
+   });
  }
 
  useEffect(() => {
     getLocation();
- })
+ });
  
   
   return (
